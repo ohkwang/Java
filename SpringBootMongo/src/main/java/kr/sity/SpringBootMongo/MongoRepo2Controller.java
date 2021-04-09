@@ -12,7 +12,7 @@ public class MongoRepo2Controller {
 	@Autowired
 	private MongoRepo2Repository mongoRepo2Repository;
 	
-	/*
+	/* 
 	@Autowired
 	public void setMongoRepoRepository(MongoRepoRepository mongoRepoRepository) {
 		this.mongoRepoRepository = mongoRepoRepository;
