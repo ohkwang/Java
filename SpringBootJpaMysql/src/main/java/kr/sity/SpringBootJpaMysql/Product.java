@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 public class Product {
 
 	@Id
-    @GeneratedValue // Auto IncId Generator.
+    @GeneratedValue //Auto IncId Generator.
     private Long id;
 
     @Column(length = 20, nullable = false)
