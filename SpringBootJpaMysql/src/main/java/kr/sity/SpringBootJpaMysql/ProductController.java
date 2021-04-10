@@ -20,12 +20,12 @@ public class ProductController {
 	}
 	
 	@GetMapping("/readOne")
-	public Optional readOne(Long id) {
+	public Optional<Product> readOne(Long id) {
 	return productRepository.findById(id);
 	}
 
 	@GetMapping("/readAll")
-	public List readAll() {
+	public List<Product> readAll() {
 	return productRepository.findAll();
 	}
 
