@@ -15,3 +15,6 @@ SpringBoot + MongoDB 연동
 
 -SpringBootInterceptor =>
 SpringBoot + Interceptor(전,후 처리기)
+
+-SpringBootActiveMq =>
+SpringBoot + ActiveMQ (queue) 관리자 접속 http://localhost:8161/ . 접속 아이디: admin 비밀번호: admin
